@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(5, 45, 106);
+}
+#header h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-top: 25px;
+}
+#temperature{
+    border:2px solid white;
+    padding: 20px;
+    background-color: rgb(101, 185, 249);
+    opacity: 75%;
+    color: black;
+    width: 400px;
+}
+#temperaturedisplay{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#pressure{
+    border:2px solid white;
+    padding: 20px;
+    background-color: rgb(101, 185, 249);
+    opacity: 75%;
+    color: black;
+    width: 400px;
+}
+#pressuredisplay{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#parent1{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-top: 25px;
+}
+#humidity{
+    border:2px solid white;
+    padding: 20px;
+    background-color: rgb(101, 185, 249);
+    opacity: 75%;
+    color: black;
+    width: 400px;
+}
+#humiditydisplay{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#wind{
+    border:2px solid white;
+    padding: 20px;
+    background-color: rgb(101, 185, 249);
+    opacity: 75%;
+    color: black;
+    width: 400px;
+}
+#winddisplay{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#location{
+    background-color: rgb(101, 185, 249);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    opacity: 75%;
+}
+#locationdisplay{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#search{
+    margin-top: 50px;
+    font-size: 40px;
+}
+#search input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+}
+#search button{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
